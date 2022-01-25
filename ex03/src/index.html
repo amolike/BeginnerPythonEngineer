@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sample</title>
+</head>
+<body>
+  <body>
+      <h1>hello Docker!</h1>
+      <p id="msg"></p>
+      <script language="JavaScript" type="text/javascript">
+          const msg = document.getElementById("msg");
+          var now = new Date();
+          var y = now.getFullYear();
+          var m = now.getMonth() + 1;
+          var d = now.getDate();
+          var h = now.getHours();
+          var mi = now.getMinutes();
+          var s = now.getSeconds();
+          
+          msg.innerHTML = `只今の日時は${y}/${m}/${d} ${h}:${mi}:${s}です!`;
+      </script>
+  </body>
+</html>
